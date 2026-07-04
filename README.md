@@ -1,35 +1,94 @@
 # Resume Builder
 
-A modern and responsive Resume Builder application that allows users to create professional resumes with real-time preview and export them as PDF.
+A modern and responsive Resume Builder application built with React and Tailwind CSS. It allows users to create, edit, preview, and print professional resumes through an intuitive interface.
 
-## 🚀 Features
+## Features
 
 - Real-time resume preview
-- Add/Edit personal details
-- Education, Experience, Skills & Projects sections
-- Download resume as PDF
-- Responsive design
+- Easy-to-use form interface
+- Add and edit Education, Experience, Skills, and Projects
+- Responsive design for desktop and mobile
+- Print-ready resume
+- Clean and modern UI
+- Fast performance using React
 
-## 🛠️ Tech Stack
+## Tech Stack
 
 - React.js
+- JavaScript (ES6+)
 - Tailwind CSS
-- JavaScript
-- Vite
+- HTML5
+- CSS3
 
-## 📦 Installation
+## Project Structure
 
-```bash
-git clone https://github.com/your-username/resume-builder.git
-cd resume-builder
-npm install
-npm run dev
+```
+Resume-Builder
+│
+├── public/
+├── src/
+│   ├── components/
+│   ├── App.js
+│   ├── index.js
+│   └── ...
+├── package.json
+├── tailwind.config.js
+└── README.md
 ```
 
-## 📄 License
+## Installation
 
-This project is licensed under the MIT License.
+Clone the repository:
 
-## 👨‍💻 Author
+```bash
+git clone https://github.com/OwaisMP/Resume-Builder.git
+```
+
+Go to the project folder:
+
+```bash
+cd Resume-Builder
+```
+
+Install dependencies:
+
+```bash
+npm install
+```
+
+Start the development server:
+
+```bash
+npm start
+```
+
+The application will run at:
+
+```
+http://localhost:3000
+```
+
+## Build for Production
+
+```bash
+npm run build
+```
+
+## Future Improvements
+
+- Multiple resume templates
+- PDF download
+- Dark mode
+- Drag-and-drop section reordering
+- Local storage support
+- Theme customization
+
+## Author
 
 **Owais Moosa Patel**
+
+GitHub: https://github.com/OwaisMP
+
+---
+
+⭐ If you found this project useful, consider giving it a star.
